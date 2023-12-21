@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & OpenGraph -->
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/img/og.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="">
+
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/swiper.min.css" />
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__item"><img src="/img/menu.svg" alt="" class="header__icon"></div>
+            <div class="header__item">
+                <picture class="logo">
+                    <source srcset="/img/webp/logo.webp" type="image/webp">
+                    <img src="/img/logo.png" alt="">
+                </picture>
+
+            </div>
+            <div class="header__item"><input type="text" class="search__input" placeholder="Поиск по продукции">
+                <picture>
+                    <img src="/img/search.svg" alt="" class="search_icon">
+                </picture>
+            </div>
+            <div class="header__item">
+                <picture class="logo">
+                    <img src="/img/delivery-icon.svg" alt="" class="header__icon">
+                </picture>
+                
+                <span class="icon__description">Доставка</span>
+            </div>
+            <div class="header__item">
+                <picture>
+                    <img src="/img/cart-icon.svg" alt="" class="header__icon">
+                </picture>
+                
+                <span class="cart__counter">0</span><span class="icon__description">Корзина</span>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Main -->
+        <div class="main">
+            <div class="main__slider">
+                <div class="slider">
+                    <picture>
+                        <source srcset="/img/webp/man.webp" type="image/webp">
+                        <img src="/img/man.png" alt="">
+                    </picture>
+                    
+                    <h2>Мужское <span class="underline"></span></h2>
+                    
+                    
+                </div>
+                <div class="slider">
+                    <picture>
+                        <source srcset="/img/webp/women.webp" type="image/webp">
+                        <img src="/img/women.png" alt="">
+                    </picture>
+                    
+                    <h2>Женское <span class="underline"></span></h2>
+                    
+                </div>
+            </div>
+            <div class="main__brands">
+                <h2 class="article__name">ТОП-Бренды</h2>
+                <div class="main__brands__items">
+                    <picture>
+                        <source srcset="/img/webp/brand1.webp" type="image/webp">
+                        <img src="/img/brand1.png" alt="">
+                    </picture>
+                    
+                    <picture>
+                        <source srcset="/img/webp/brand2.webp" type="image/webp">
+                        <img src="/img/brand2.png" alt="">
+                    </picture>
+
+                    <picture>
+                        <source srcset="/img/webp/brand3.webp" type="image/webp">
+                        <img src="/img/brand3.png" alt="">
+                    </picture>
+
+                    <picture>
+                        <source srcset="/img/webp/brand4.webp" type="image/webp">
+                        <img src="/img/brand4.png" alt="">
+                    </picture>
+
+                    <picture>
+                        <source srcset="/img/webp/brand5.webp" type="image/webp">
+                        <img src="/img/brand5.png" alt="">
+                    </picture>
+
+                    <picture>
+                        <source srcset="/img/webp/brand6.webp" type="image/webp">
+                        <img src="/img/brand6.png" alt="">
+                    </picture>
+                </div>
+                <h3 class="article__subname">все бренды <br><span class="black_underline"></span></h3>
+
+            </div>
+            <div class="main__collection">
+                <h2 class="article__name">коллекция</h2>
+                <div class="collection">
+
+                    <div class="collection__item">
+                        <picture>
+                            <source srcset="/img/webp/collection1.webp" type="image/webp">
+                            <img src="/img/collection1.png" alt="">
+                        </picture>
+                        
+                        <p>Спортивный костюм <span class="brand__link">Artigiani</span>,
+                            футболка <span class="brand__link">Artigiani</span>,
+                            кеды <span class="brand__link">Santoni</span></p>
+                    </div>
+                    <div class="collection__item">
+                        <picture>
+                            <source srcset="/img/webp/collection2.webp" type="image/webp">
+                            <img src="/img/collection2.png" alt="">
+                        </picture>
+                        <p>Пуховый жилет <span class="brand__link">Kiton</span>,
+                            джинсы <span class="brand__link">Jacob Cohen</span>,
+                            футболка <span class="brand__link">Fedeli</span>,
+                            кроссовки <span class="brand__link">Valentino</span>,
+                            бейсболка <span class="brand__link">Kiton</span></p>
+                    </div>
+                    <div class="collection__item">
+                        <picture>
+                            <source srcset="/img/webp/collection3.webp" type="image/webp">
+                            <img src="/img/collection3.png" alt="">
+                        </picture>
+                        <p>Парка <span class="brand__link">Artigiani</span>,
+                            джемпер <span class="brand__link">Artigiani</span>,
+                            джинсы <span class="brand__link">Jacob Cohen</span>,
+                            челси <span class="brand__link">Santoni</span></p>
+                    </div>
+                </div>
+                <h3 class="article__subname">смотреть больше <br><span class="black_underline"></span></h3>
+            </div>
+            <div class="main__new_items swiper1 swiper swiper-container">
+                <h2 class="article__name">Новинки</h2>
+                <h4 class="article__subname">648 обновлений</h4>
+                <div class="new_items swiper-wrapper">
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        
+                        <h3>Saint Laurent</h3>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new2.webp" type="image/webp">
+                            <img src="/img/new2.png" alt="">
+                        </picture>
+                        <h3>BRUNELLO CUCINELLI</h3>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new3.webp" type="image/webp">
+                            <img src="/img/new3.png" alt="">
+                        </picture>
+                        <h3>Brunello Cucinelli</h3>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        <h3>Saint Laurent</h3>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        
+                        <h3>Saint Laurent</h3>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new2.webp" type="image/webp">
+                            <img src="/img/new2.png" alt="">
+                        </picture>
+                        <h3>BRUNELLO CUCINELLI</h3>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new3.webp" type="image/webp">
+                            <img src="/img/new3.png" alt="">
+                        </picture>
+                        <h3>Brunello Cucinelli</h3>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        <h3>Saint Laurent</h3>
+                    </div>
+                    
+                </div>
+                
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                
+
+
+            </div>
+            <h3 class="article__subname slider__subname">смотреть все <br><span class="black_underline"></span></h3>
+            <div class="main__article">
+                <div class="slider ">
+                    <picture>
+                        <source srcset="/img/webp/maison.webp" type="image/webp">
+                        <img src="/img/maison.png" alt="">
+                    </picture>
+                    
+                    <div class="slider__content left">
+                        <span class="slider__content_h left">Парфюм</span>
+                        <div class="slider__content__info">
+                            <span class="slider__content__description">
+                                Maison <br>
+                                Francis Kurkdjian
+                                Baccarat Rouge 540
+                            </span>
+                            <h3 class="article__subname">смотреть <br><span class="white_underline"></span></h3>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="slider">
+                    <picture>
+                        <source srcset="/img/webp/rosso.webp" type="image/webp">
+                        <img src="/img/rosso.png" alt="">
+                    </picture>
+                    
+                    <div class="slider__content right">
+                        <span class="slider__content_h">Запах месяца</span>
+                        <div class="slider__content__info">
+                            <span class="slider__content__description">Dr.Vranjes
+                                <br> Rosso Nibile
+                            </span>
+                            <h3 class="article__subname">смотреть <br><span class="white_underline"></span></h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__new_items swiper2 swiper swiper-container">
+                <h2 class="article__name red">Скидки</h2>
+                <div class="new_items swiper-wrapper">
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        <h3>Saint Laurent</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new2.webp" type="image/webp">
+                            <img src="/img/new2.png" alt="">
+                        </picture>
+                        <h3>BRUNELLO CUCINELLI</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new3.webp" type="image/webp">
+                            <img src="/img/new3.png" alt="">
+                        </picture>
+                        <h3>Brunello Cucinelli</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        <h3>Saint Laurent</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        <h3>Saint Laurent</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new2.webp" type="image/webp">
+                            <img src="/img/new2.png" alt="">
+                        </picture>
+                        <h3>BRUNELLO CUCINELLI</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new3.webp" type="image/webp">
+                            <img src="/img/new3.png" alt="">
+                        </picture>
+                        <h3>Brunello Cucinelli</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+                    <div class="new_items__item swiper-slide">
+                        <span class="item__sale">-70%</span><picture>
+                            <source srcset="/img/webp/new1.webp" type="image/webp">
+                            <img src="/img/new1.png" alt="">
+                        </picture>
+                        <h3>Saint Laurent</h3>
+                        <div class="price">
+                            <p class="old__price">123 000 P</p>
+                            <p class="new__price">96 000 P</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination2 swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev2 swiper-button-prev"></div>
+                <div class="swiper-button-next2 swiper-button-next"></div>
+
+            </div>
+            <h3 class="article__subname slider__subname">смотреть все <br><span class="black_underline"></span></h3>
+
+            <div class="main__article">
+                <div class="overlay">
+                    <picture>
+                        <source srcset="/img/webp/artigiani.webp" type="image/webp">
+                        <img src="/img/artigiani.png" alt="">
+                    </picture>
+
+                </div>
+
+                <div class="article_description">
+                    <img src="/img/artigiani.svg" alt="">
+                    <span>
+                        Изделия премиального качества из самых лучших материалов, ориентируясь на традиции итальянских производителей.
+                    </span>
+                    <h3 class="article__subname">смотреть КОЛЛЕКЦИЮ <br><span class="white_underline"></span></h3>
+                </div>
+                <div class="order">
+                    <div class="order__container">
+                        <picture class="phone__picture">
+                            <source srcset="/img/webp/phone.webp" type="image/webp">
+                            <img src="/img/phone.png" alt="">
+                        </picture>
+                        
+                        <form action="#" class="order__form">
+                            <h3 class="article__name form__name">Оформите подписку на рассылку intefra</h3>
+                            <div class="input__items">
+                                <input type="text" class="form__input" placeholder="Имя">
+                                <input type="text" class="form__input" placeholder="Телефон">
+                                <input type="button" name="submit__form" href="#" class="form__input form__button" value="Оформить рассылку">
+                            </div>
+                            
+                        </form>
+                        <div class="order__info">
+                            <div class="order__info__item">
+                                <picture>
+                                    <source srcset="/img/webp/package.webp" type="image/webp">
+                                    <img src="/img/package.png" alt="">
+                                </picture>
+
+                                <span>Работаем с 2012 года</span>
+    
+                            </div>
+                            <div class="order__info__item">
+
+                                <picture >
+                                    <source srcset="/img/webp/original.webp" type="image/webp">
+                                    <img src="/img/original.png" alt="">
+                                </picture>
+                                <span>100% оригинальные вещи</span>
+                            </div>
+                            <div class="order__info__item">
+
+                                <picture >
+                                    <source srcset="/img/webp/delivery.webp" type="image/webp">
+                                    <img src="/img/delivery.png" alt="">
+                                </picture>
+                                <span>Доставка по России</span>
+                            </div>
+                            <div class="order__info__item">
+                                <picture >
+                                    <source srcset="/img/webp/sold.webp" type="image/webp">
+                                    <img src="/img/sold.png" alt="">
+                                </picture>
+                                <span>Есть услуга "Примерки"</span>
+                            </div>
+    
+    
+    
+                        </div>
+                    </div>
+
+                </div>
+                
+
+            </div>
+        </div>
+        <!-- End Main -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__col">
+                <h3 class="footer__logo">INTEFRA</h3>
+                <p class="grey_text">
+                    INTEFRA – российская платформа, на которой объединены ведущие
+                    итальянские бренды одежды, обуви и аксессуаров.
+                </p>
+                <p class="grey_text">
+                    INTEFRA.RU - с 2012 года - 100% оригинальные товары
+                </p>
+            </div>
+            <div class="footer__col">
+                <nav class="categories">
+                    <li class="categories__item">Обувь</li>
+                    <li class="categories__item">Футболки поло</li>
+                    <li class="categories__item">Джинсы и брюки</li>
+                    <li class="categories__item">Сумки</li>
+                    <li class="categories__item">Верхняя одежда</li>
+                    <li class="categories__item">Ремни</li>
+                    <li class="categories__item">Спортивные костюмы</li>
+                    <li class="categories__item">Акссесуары</li>
+                    <li class="categories__item">Пиджаки и костюмы</li>
+                    <li class="categories__item">Бренды</li>
+                    <li class="categories__item">Свитера, поло, джемперы</li>
+                </nav>
+            </div>
+            <div class="footer__col">
+                <div class="adress_block">
+                    <p class="adress">
+                        <span>Офис в России</span> <br> Москва,
+                        Кутузовский пр. 2 Санкт-Петербург, Большой проспект П.С. 13
+                    </p>
+                    <img src="/img/map-icon.svg" alt="" class="map__icon">
+                </div>
+
+                <div class="adress_block">
+                    <p class="adress">
+                        <span>Офис в Италии</span><br> Milano, Via Manzoni 23
+                    </p>
+                    <img src="/img/map-icon.svg" alt="" class="map__icon">
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- End Footer -->
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="/js/swiper.js"></script>
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
