@@ -45,6 +45,8 @@ body, html{
     width: 100vw;
     font-family: "Montserrat", "Arial", sans-serif;
     font-weight: 150;
+    overflow-x:hidden;
+    
 }
 
 
@@ -57,26 +59,37 @@ body, html{
 
 
 .container{
-    width:1530px;
+    width:80%;
     margin: auto;
 }
 .slider{
     position: absolute;
     width: 50vw;
-    height: 100%;
-
+    height: 80vh;
+    
 }
 .slider:first-child{
     right: 50%;
+    
 
 }
 .slider:last-child{
     left: 50%
 }
 
-.slider picture img{
+.slider picture{
+    overflow: hidden;
+    height: 80vh;
     width: 100%;
-    height: 90vh;
+    
+ 
+}
+.slider picture img{
+    
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+    
 }
 
 
@@ -135,16 +148,22 @@ body, html{
 
 
 .main__brands__items{
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    
+    display: flex;
+    justify-content: space-between;    
     margin: auto;
+    margin-bottom: 71px;
+}
+
+.main__brands__items picture:not(:last-child){
+    border-right-color: #D9D9D9;
+    border-right-style: solid;
+    border-width: 1px;
 }
 
 .main__brands__items picture img{
     width: 80%;
     height: 80%;
-    border-right: 1px solid gray;
+    
     margin: auto;
 }
 .main__brands__items picture img:last-child{
@@ -254,11 +273,9 @@ body, html{
 
     display: block;
     grid-column: span 2;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 104%;
-    left: -2%;
+    width: 102vw;
+    margin-left: -13%;
+
 
 
 }
@@ -283,12 +300,9 @@ body, html{
     width: 100%;
     background-color: white;
     margin: auto;
-    
     height: 40vh;
     box-shadow: 1px 1px 5px;
     
-
-
 }
 .order__form{
     height: 5rem;
@@ -341,32 +355,40 @@ body, html{
 
 .form__name{
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 150;
+    text-align: left;
+    position: relative;
+    display: block;
+    margin-top: 72px;
 }
 .order__info{
     grid-column: span 2;
     display: flex;
-    width: 100%;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: space-between;
+    width: 100%;
     margin: auto;
     margin-bottom: 0;
     height: 151px;
 }
 
 .order__info__item{
-    border-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
     border-width: 1px;
     border-color: rgba(0,0,0,0.1);
     width: 25%;
+    
 }
 .order__info__item picture img{
-    width: 2rem;
-    height: 2rem;
+    height: 31px;
+    
     display: block;
     margin: auto;
     margin-top: 34px;
+}
+.order__info__item picture{
+    overflow: hidden;
 }
 .order__info__item span{
     display: block;
@@ -491,6 +513,7 @@ body, html{
     justify-content: start;
     align-items: center;
     font-weight: 100;
+    margin-top: -50%;
 
 }
 
@@ -498,4 +521,43 @@ body, html{
     width: 466px;
     padding-top: 231px;
 
+}
+.red_line{
+    margin-top: 20%;
+    display: block;
+    border-top-style: solid;
+    border-top-color: red;
+    border-top-width: 2px;
+    grid-column: span 2;
+    position: relative;
+    margin-left: -300px;
+    width: 150vw;
+
+
+}
+
+
+.sale__banner{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    
+}
+.sale__banner picture {
+    overflow: hidden;
+    height: 100%;
+}
+.sale__banner picture img{
+    width: 100%;
+    object-fit: cover;
+    height: inherit;
+   
+}
+.sale__banner .article__name{
+    margin-top: -40%;
+    margin-right: -100%;
+}
+.sale__banner .form__button{
+    margin-top: -10%;
+    margin-left: 50%;
 }

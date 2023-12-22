@@ -2,7 +2,7 @@ header{
     display: grid;
     grid-template-columns: 10% 20% auto 10% 10%;
     grid-template-rows: 102px;
-    width: 1530px;
+    width: 80%;
     margin: auto;
     margin-top: 1rem;
 }
